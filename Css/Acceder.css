@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #636363b6;
+}
+
+.contener {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.image-section {
+    flex: 1;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anime-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.form {
+    flex: 1;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: #e4e4e4;
+}
+
+.form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form input[type="text"],
+.form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form input[type="submit"] {
+    margin-top: 10px;
+    margin-left: -40px;
+    width: 80%;
+    padding: 10px;
+    border: none;
+    background-color: #5c67f2;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #4a54e1;
+}
+
+.form a {
+    margin-left: 50px;
+    text-decoration: none;
+}
+

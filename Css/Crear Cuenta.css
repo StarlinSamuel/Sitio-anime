@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #dfdcdc;
+}
+
+.contenedor {
+    text-align: center;
+}
+
+header {
+    margin-left: -20em;
+    margin-top: -30em; 
+
+}
+
+header .logo {
+    width: 200px;
+    height: 100px;
+}
+
+h1 {
+    text-align: center;
+    margin-left: 8em;
+    color: #444;
+    margin-top: -18em; 
+}
+
+.form {
+    margin-left: -30em;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}
+
+.form h2 {
+    margin-top: 0;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+}
+
+.form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.form input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin-left: 10px;
+}
+
+.form .buttons {
+    display: flex;
+    justify-content: center; 
+    gap: 50px; 
+}
+
+.form .buttons button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form .buttons button:hover {
+    background-color: #444;
+}
+
+.form a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
